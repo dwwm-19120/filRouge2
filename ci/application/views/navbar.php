@@ -17,6 +17,9 @@
                 <li class="nav-item">
                     <a class="nav-link text-light" href="<?php echo site_url(""); ?>">A propos</a>
                 </li>
+                <li class="nav-item caché">
+                    <a class="nav-link text-light" href="<?php echo site_url(""); ?>">Administration</a>
+                </li>
             </ul>
         </div>
     </nav>
