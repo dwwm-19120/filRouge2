@@ -7,7 +7,7 @@
     <link rel="stylesheet" media="screen and (max-width: 576px)" href="<?php echo base_url("assets/css/") . "style.css"; ?>">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.0/css/bootstrap.min.css">
-    <link rel="stylesheet" href="<?php echo base_url("assets/css/") . "style.css"; ?>">
+    <link rel="stylesheet" href="<?= base_url("/assets/css/style.css"); ?>">
 </head>
 
 <body class="container">
