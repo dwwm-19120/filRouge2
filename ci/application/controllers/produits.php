@@ -1,6 +1,6 @@
 <?php
 defined('BASEPATH') or exit('No direct script access allowed');
-class Fournisseurs extends CI_Controller
+class Produits extends CI_Controller
 {
   /**
    * \brief 
@@ -8,9 +8,9 @@ class Fournisseurs extends CI_Controller
    * \author LEGRIS Augustin
    * \date 14/04/2020
    */
-  public function fourni_list()
+  public function pro_list()
   {
-    $this->templates->display('fourni_list');
+    $this->templates->display('pro_list');
   }
   /**
    * \brief 
@@ -18,9 +18,9 @@ class Fournisseurs extends CI_Controller
    * \author LEGRIS Augustin
    * \date 14/04/2020
    */
-  public function fourniAjouts()
+  public function proAjouts()
   {
-    $this->templates->display('fourniAjouts');
+    $this->templates->display('proAjouts');
   }
   /**
    * \brief 
@@ -28,8 +28,8 @@ class Fournisseurs extends CI_Controller
    * \author LEGRIS Augustin
    * \date 14/04/2020
    */
-  public function fourniModif()
+  public function proModif()
   {
-    $this->templates->display('fourniModif');
+    $this->templates->display('proModif');
   }
 }
